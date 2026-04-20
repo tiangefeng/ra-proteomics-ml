@@ -6,8 +6,7 @@ rheumatoid arthritis (RA) subtypes (ACPA-positive vs ACPA-negative) from
 healthy controls.
 
 > Course project for **CB2050 Project in Molecular Life Science**, KTH /
-> SciLifeLab. See [`docs/Project_Report.pdf`](docs/Project_Report.pdf) for
-> the full write-up.
+> SciLifeLab. 
 
 ---
 
@@ -31,7 +30,7 @@ extracted from the signed model coefficients, and Gene Ontology Biological
 Process enrichment is run on the top predictors from Model 1.
 
 Consistently prioritized proteins include **PDCD1, IL6, PADI4, CXCL13**, and
-**MSMP** — see the report for biological interpretation.
+**MSMP** 
 
 ---
 
@@ -53,7 +52,6 @@ ra-proteomics-ml/
 ├── results/
 │   └── figures/            # PNG outputs written by run_all.R
 ├── docs/
-│   └── Project_Report.pdf  # Full course report
 └── README.md
 ```
 
@@ -181,17 +179,7 @@ and biological interpretation.
 
 ---
 
-## Citation
-
-If this code is useful in your own work, please cite the course report:
-
-> Feng, T. (2026). *Machine Learning-Based Protein Biomarker Discovery for
-> Rheumatoid Arthritis Using Olink Proteomics.* CB2050 Project in Molecular
-> Life Science, KTH / SciLifeLab.
-
----
-
 ## Acknowledgements
 
-Supervision: Josefin Kenrick (SciLifeLab). Data: Human Disease Blood Atlas.
+Data: Human Disease Blood Atlas.
 Proteomics platform: Olink Explore HT (PEA + NGS readout).
